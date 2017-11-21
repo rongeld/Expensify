@@ -1,0 +1,41 @@
+.login-page {
+   height: 100vh;
+   width: 100vw;
+   background: url('/images/bg.png') no-repeat center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   button {
+      border: none;
+      outline: none;
+      background: none;
+   }
+}
+
+.buttons__group {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 80%;
+}
+.button-login img {
+   max-width: 250px;
+}
+.button-login__google--img {
+   animation: btn-g 3s infinite;
+}
+.button-login__fb--img {
+   animation: btn-fb 3s infinite;
+}
+@keyframes btn-g {
+   15% {transform: translateY(25px);}
+   30% {transform: translateY(0);}
+   60% {transform: translateY(25px);}
+}
+@keyframes btn-fb {
+   15% {transform: rotate(-25deg);}
+   30% {transform: rotate(0deg);}
+   60% {transform: rotate(25deg);}
+}
+
