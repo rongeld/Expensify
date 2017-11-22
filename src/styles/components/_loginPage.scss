@@ -6,6 +6,8 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
+   color: white;
    button {
       border: none;
       outline: none;
@@ -20,7 +22,8 @@
    width: 80%;
 }
 .button-login img {
-   max-width: 250px;
+   max-width: 100%;
+   width: 250px;
 }
 .button-login__google--img {
    animation: btn-g 3s infinite;

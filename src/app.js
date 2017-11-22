@@ -27,7 +27,7 @@ const renderApp = () => {
   }
 };
 
-ReactDOM.render(<p>Loading</p>, document.getElementById('app'));
+ReactDOM.render(<p>Подожди, фраерок...</p>, document.getElementById('app'));
 
 
 
